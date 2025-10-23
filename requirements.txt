@@ -1,0 +1,10 @@
+# requirements.txt
+telethon
+pytesseract
+Pillow
+pydantic-settings
+python-dotenv
+colorama
+
+# Dependência do Banco de Dados
+sqlalchemy
