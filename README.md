@@ -19,6 +19,22 @@ Connects to Telegram via Telethon, for each new message reads the text, if there
 - **Docker** for packaging and execution with Tesseract installed
 - **Mounted volumes** to maintain session and database between restarts
 
+## Application Flow
+
+![Application Flow](images/diagram-cti-telegram-monitoring.png)
+
+## Monitoring Examples
+
+### Monitored Malicious Channel
+The system monitors specific Telegram channels for sensitive content:
+
+![Monitored Malicious Channel](images/FAKE-MALICIOUS-CHANNEL-WITH-FAKE-LEAKED-DATA.png)
+
+### Security Engineering Team Alerts
+When keywords are detected, alerts are sent to the security engineering team:
+
+![Security Engineering Team Alerts](images/FAKE-SECURITY-ENGINEERING-TEAM-ALERT-GROUP.png)
+
 ## Features
 
 - Automated Telegram channel monitoring
