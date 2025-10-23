@@ -82,8 +82,8 @@ BRAND_KEYWORDS=keyword1,keyword2,keyword3
 ### 3. Installation
 
 ```bash
-# Build and run with Docker Compose
-docker-compose up --build
+# Run with Docker Compose
+sudo docker-compose run --rm worker
 ```
 
 ## Usage
